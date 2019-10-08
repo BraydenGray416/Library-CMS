@@ -1,11 +1,7 @@
 <?php
-$title = 'Home';
-require('templates/header.php');
+$title = 'Add book';
+require('../templates/header.php');
 ?>
-<?php
-require('templates/nav.php');
-?>
-
 
 
         <div class="row mb-2">
@@ -53,5 +49,5 @@ require('templates/nav.php');
         </div>
 
     <?php
-    require('templates/footer.php');
+    require('../templates/footer.php');
     ?>

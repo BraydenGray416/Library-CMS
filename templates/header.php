@@ -1,6 +1,20 @@
+<?php
+    if (is_dir('vendor')) {
+        require 'vendor/autoload.php';
+    } else {
+        require '../vendor/autoload.php';
+    }
+
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
+    <base href="http://localhost/yoobeeWork/module4/Library-CMS/">
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -12,3 +26,15 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+
+    <?php
+    require('nav.php');
+    ?>
+
+    <div class="container">
+        <div class="nav-scroller py-1 mb-2">
+            <nav class="nav d-flex justify-content-around">
+                <a class="p-2 text-muted" href="books/allBooks.php">Books</a>
+                <a class="p-2 text-muted" href="">Movies</a>
+            </nav>
+        </div>

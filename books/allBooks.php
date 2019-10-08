@@ -1,9 +1,6 @@
 <?php
-$title = 'Home';
-require('templates/header.php');
-?>
-<?php
-require('templates/nav.php');
+$title = 'All books';
+require('../templates/header.php');
 ?>
 
 
@@ -26,7 +23,7 @@ require('templates/nav.php');
                          <p class="card-text">Harry Potter and the Philosopher's Stone</p>
                          <div class="d-flex justify-content-between align-items-center">
                              <div class="btn-group">
-                                 <a href="singleBook.php" class="btn btn-sm btn-outline-info">View</a>
+                                 <a href="books/singleBook.php" class="btn btn-sm btn-outline-info">View</a>
                                  <a href="" class="btn btn-sm btn-outline-secondary">Edit</a>
                              </div>
                          </div>
@@ -36,5 +33,5 @@ require('templates/nav.php');
         </div>
 
     <?php
-    require('templates/footer.php');
+    require('../templates/footer.php');
     ?>

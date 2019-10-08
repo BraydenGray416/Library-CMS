@@ -1,10 +1,8 @@
 <?php
-$title = 'Home';
-require('templates/header.php');
+$title = 'Single book';
+require('../templates/header.php');
 ?>
-<?php
-require('templates/nav.php');
-?>
+
 
 
 
@@ -56,5 +54,5 @@ require('templates/nav.php');
         </div>
 
     <?php
-    require('templates/footer.php');
+    require('../templates/footer.php');
     ?>
