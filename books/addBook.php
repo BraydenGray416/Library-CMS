@@ -1,7 +1,4 @@
-<?php
-$title = 'Add book';
-require('../templates/header.php');
-?>
+<?php require('../templates/header.php'); ?>
 
 
         <div class="row mb-2">

@@ -5,7 +5,6 @@ require('../templates/header.php');
 
 
 
-
         <div class="row mb-2">
             <div class="col">
                 <h1>Harry Potter and the Philosopher's Stone</h1>

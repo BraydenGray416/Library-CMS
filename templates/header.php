@@ -4,16 +4,18 @@
     } else {
         require '../vendor/autoload.php';
     }
+    // echo __DIR__ . '/..';
+    $dotenv = Dotenv\Dotenv::create(__DIR__ . '/..');
+    $dotenv->load();
 
-
-
+    require('connection.php');
 ?>
 
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-    <base href="http://localhost/yoobeeWork/module4/Library-CMS/">
+    <base href="<?php echo getenv('PROJECT_URL'); ?>">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -35,6 +37,6 @@
         <div class="nav-scroller py-1 mb-2">
             <nav class="nav d-flex justify-content-around">
                 <a class="p-2 text-muted" href="books/allBooks.php">Books</a>
-                <a class="p-2 text-muted" href="">Movies</a>
+                <a class="p-2 text-muted" href="movies/allMovies.php">Movies</a>
             </nav>
         </div>
