@@ -1,5 +1,4 @@
 <?php
-$title = 'Single book';
 require('../templates/header.php');
 ?>
 

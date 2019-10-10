@@ -1,6 +1,7 @@
 <?php
-$title = 'All books';
-require('../templates/header.php');
+    require('../templates/header.php');
+
+    var_dump($_POST);
 ?>
 
 
@@ -11,7 +12,7 @@ require('../templates/header.php');
         </div>
         <div class="row mb-2">
             <div class="col">
-                <a class="btn btn-outline-primary" href="addBook.php">Add new Book</a>
+                <a class="btn btn-outline-primary" href="./books/addBook.php">Add new Book</a>
             </div>
         </div>
 
